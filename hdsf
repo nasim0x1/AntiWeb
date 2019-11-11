@@ -1,0 +1,18 @@
+ def active():
+            if pass_status == True:
+                top = Tk()
+                top.wm_attributes('-type', 'splash')
+                prgrassingbar = Progressbar(top, maximum=100, orient="horizontal", length=100,mode="indeterminate")
+                prgrassingbar.pack()
+                prgrassingbar.start(10)
+
+                def activated():
+                    prgrassingbar.destroy()
+                    self.Status_Deactive.destroy()
+                    self.ActiveButton.destroy()
+                    messagebox.showinfo("Success", "Your Shield Activated")
+                import active_shield
+                active_shield
+                top.after(900,activated)
+            else:
+                check_password()
