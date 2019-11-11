@@ -1,3 +1,4 @@
-# AntiWeb
+# GUI Adult Site Blocker
 __Splash Screen__
-![ss.png]
+![Splash Screen](ss.png)
+
